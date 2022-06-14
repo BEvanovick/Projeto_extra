@@ -18,8 +18,8 @@
     position: absolute;
     bottom: 0;
     width: 80px;
-    left: 120px; 
-    animation: pipe__animation 1.5s infinite linear; 
+    /*left: 120px;*/
+    animation: pipe-animation 1.5s infinite linear;
 }
 
 .mario {
@@ -32,6 +32,7 @@
     animation: jump 500ms ease-out;
 }
 
+
 .clouds {
     position: absolute;
     width: 550px;
@@ -39,7 +40,7 @@
 }
 
 
-@keyframes pipe__animation {
+@keyframes pipe-animation {
     from {
         right: -80px;
     }
@@ -70,6 +71,7 @@
         bottom: 0;
     }
 }
+
 
 @keyframes clouds-animation {
 

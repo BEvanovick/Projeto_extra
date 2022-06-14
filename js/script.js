@@ -1,4 +1,4 @@
-const mario = document.querySelector('.mario');
+/*const mario = document.querySelector('.mario');
 const pipe = document.querySelector('.pipe');
 
 const jump = () ⇒ {
@@ -18,7 +18,7 @@ const loop = setInterval(() ⇒ {
 
 
     
-    if (pipePosition ≤ 120 && pipePosition > 0 && marioPosition < 80) {
+    if (pipePosition <= 120 && pipePosition > 0 && marioPosition < 80) {
 
         pipe.style.animation = 'none';
         pipe.style.left = `${pipePosition}px`;
@@ -38,3 +38,4 @@ const loop = setInterval(() ⇒ {
 }, 10)
 
 document.addEventListener('keydown', jump);
+*/
